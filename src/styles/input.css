@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --font-relaway: "Raleway", serif;
+    --font-opensans: "Open Sans", serif;
+    --color-lightgray: #F8F8FE;
+    --color-desaturatedblue: #575988;
+    --color-verydarkblue: #060339;
+    --color-instagram: #FE5700;
+}

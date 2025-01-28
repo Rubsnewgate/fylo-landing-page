@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Fylo</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"/>
+    <!-- styles  -->
+     <link rel="stylesheet" href="../dist/output.css"/>
+</head>
+<body class="font-opensans">
+    <header class="flex items-center justify-between h-20 px-5 md:px-10 md:h-32 xl:px-20">
+        <div class="w-24 md:w-36 xl:w-32">
+            <a href="">
+                <img src="../public/assets/img/logo.svg" alt="Fylo logo"/>
+            </a>
+        </div>
+
+        <nav class="">
+            <ul class="flex gap-4 font-relaway font-medium text-gray-600 md:text-2xl
+                md:gap-8 xl:text-lg"
+            >
+                <li class="cursor-pointer"> Features </li>
+                <li class="cursor-pointer"> Team </li>
+                <li class="cursor-pointer"> Sign in </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="mt-20 mb-40">
+        <section class="flex flex-col gap-10 px-5 md:px-10 md:flex-row-reverse xl:px-20
+            xl:gap-28"
+        >
+            <div class="md:self-center">
+                <img src="../public/assets/img/illustration-1.svg" alt="Files illustration"
+                    class=""
+                />
+            </div>
+
+            <div class="flex flex-col gap-5">
+                <h1 class="font-bold text-2xl text-center text-slate-900 md:text-start
+                    xl:text-4xl"
+                >
+                    All your files in one secure location, accesible anywhere.
+                </h1>
+                <p class="font-medium text-center text-slate-900 md:text-start">
+                    Fylo stores your most important files in one secure location.
+                    Access them wherever you need, share and collaborate width
+                    friends, family, and co-workers.
+                </p>
+
+                <form action="#"
+                    class="flex flex-col gap-5 xl:flex-row"
+                >
+                    <input type="email" placeholder="Enter your email" required
+                        class="h-12 px-4 border-2 border-slate-900 rounded-md outline-none
+                        xl:w-80" id="emailOne"
+                    />
+                    <input type="submit" value="Get started"
+                        class="h-12 font-relaway font-semibold text-white text-lg bg-blue-600
+                        rounded-md cursor-pointer shadow-lg xl:w-44 hover:bg-blue-400 transition
+                        duration-300" id="submitOne"
+                    />
+                </form>
+                <small id="errorOne" class="font-semibold text-red-500 hidden">
+                    Please check your email
+                </small>
+            </div>
+        </section>
+    </main>
+
+    <section class="relative py-20 bg-lightgray">
+        <div class="absolute -top-12 w-full h-12 bg-[url(../public/assets/img/bg-curve-mobile.svg)]
+            bg-cover md:bg-[url(../public/assets/img/bg-curve-desktop.svg)]"
+        >
+        </div>
+
+        <article class="flex flex-col items-center gap-10 px-5 md:px-10 md:flex-row-reverse">
+            <div>
+                <img src="../public/assets/img/illustration-2.svg" alt="Secure storage illustration"
+                    class=""
+                />
+            </div>
+
+            <div class="flex flex-col gap-5">
+                <h2 class="font-relaway font-bold text-xl xl:text-3xl">
+                    Stay productive, wherever you are
+                </h2>
+                <p class="font-medium text-gray-500">
+                    Never let location be an issue when accessing your files. Fylo has you
+                    covered for all of your files storage needs.
+                </p>
+                <p class="font-medium text-gray-500">
+                    Securely share files and folders with friends, family and colleagues for
+                    live collaboration. No email attachments required!
+                </p>
+
+                <a href="#" class="flex justify-between self-center w-44 font-medium text-emerald-400
+                    border-b-emerald-400 border-b-2 md:self-start"
+                >
+                    See how Fylo works
+                    <img src="../public/assets/icons/icon-arrow.svg" alt="Arrow icon"
+                        class="w-6"
+                    />
+                </a>
+
+                <div class="flex flex-col self-center gap-2 w-80 p-4 bg-white rounded-lg shadow-lg
+                    md:self-start"
+                >
+                    <div class="w-5 h-5">
+                        <img src="../public/assets/icons/icon-quotes.svg" alt="" class="h-full w-full"/>
+                    </div>
+
+                    <p class="font-medium text-sm text-slate-700">
+                        Fylo has improved our team productivity by an order of magnitude. Since
+                        making the switch our team has become a well-oiled collaboration machine.
+                    </p>
+
+                    <div class="flex items-center gap-3">
+                        <img src="../public/assets/img/avatar-testimonial.jpg" alt="Kyle Burton avatar"
+                            class="w-9 h-9 rounded-full"
+                        />
+                        <div>
+                            <p class="font-bold text-sm text-slate-900"> Kyle Burton </p>
+                            <small class="font-bold text-xs text-gray-500">
+                                Founder & CEO, Huddle
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="flex flex-col gap-10 px-5 py-20 bg-desaturatedblue md:flex-row
+        md:justify-between md:px-10 lg:items-center lg:justify-center xl:justify-around"
+    >
+        <div class="text-center md:text-start md:w-96 xl:w-[40%]">
+            <h2 class="mb-5 font-relaway font-bold text-white text-xl xl:text-3xl">
+                Get Early access today
+            </h2>
+            <p class="text-white text-base">
+                It only takes a minute to sign and our free starter tier is extremely
+                generous. If you have any questions, our support team would be happy
+                to help you.
+            </p>
+        </div>
+
+        <form action="#"
+                class="flex flex-col items-center gap-5 xl:flex-col
+                xl:w-[30%]"
+        >
+            <input type="email" placeholder="Email your email" required
+                class="w-72 h-10 bg-white px-4 border-none rounded-md outline-none
+                lg:w-80 xl:w-full xl:h-12" id="emailTwo"
+            />
+            <input type="submit" value="Get started"
+                class="w-72 h-10 font-relaway font-semibold text-white text-lg
+                bg-blue-600 rounded-md cursor-pointer shadow-lg lg:w-80 xl:w-full
+                xl:h-12 hover:bg-blue-400 transition duration-300" id="submitTwo"
+            />
+            <small id="errorTwo" class="font-semibold text-white hidden">
+                Please check your email
+            </small>
+        </form>
+    </section>
+
+    <footer class="flex flex-col gap-10 px-5 py-20 text-lightgray bg-verydarkblue
+        md:flex-row md:items-center md:justify-between md:px-10 lg:justify-center lg:gap-20
+        xl:justify-around"
+    >
+         <div class="flex flex-col gap-5 md:self-start">
+            <div class="md:w-40">
+                <img src="../public/assets/img/footer-logo.svg" alt="Logo icon"/>
+            </div>
+
+            <div class="flex gap-5">
+                <img src="../public/assets/icons/icon-phone.svg" alt="Phone icon"/>
+                <span class="cursor-pointer xl:font-medium xl:text-base">
+                    Phone: +1-543-123-4567
+                </span>
+            </div>
+
+            <div class="flex gap-5">
+                <img src="../public/assets/icons/icon-email.svg" alt="Email icon"/>
+                <span class="cursor-pointer xl:font-medium xl:text-base">
+                    example@fylo.com
+                </span>
+            </div>
+         </div>
+
+         <div class="flex flex-col gap-5 md:flex-row md:gap-10">
+            <ul class="flex flex-col gap-2 xl:font-medium xl:text-base">
+                <li class="cursor-pointer hover:text-desaturatedblue">
+                    About us
+                </li>
+                <li class="cursor-pointer hover:text-desaturatedblue transition
+                    duration-300"
+                >
+                    Jobs
+                </li>
+                <li class="cursor-pointer hover:text-desaturatedblue transition
+                    duration-300"
+                >
+                    Press
+                </li>
+                <li class="cursor-pointer hover:text-desaturatedblue transition
+                    duration-300"
+                >
+                    Blog
+                </li>
+            </ul>
+
+            <ul class="flex flex-col gap-2 xl:font-medium xl:text-base">
+                    <li class="cursor-pointer hover:text-desaturatedblue transition
+                        duration-300"
+                    >
+                        Contact us
+                    </li>
+                    <li class="cursor-pointer hover:text-desaturatedblue transition
+                        duration-300"
+                    >
+                        Terms
+                    </li>
+                    <li class="cursor-pointer hover:text-desaturatedblue transition
+                        duration-300"
+                    >
+                        Privacy
+                    </li>
+            </ul>
+         </div>
+
+         <div class="flex gap-5 self-center">
+            <a href="#" class="cursor-pointer md:w-8 xl:w-9">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff"
+                    stroke="none" stroke-linecap="round" stroke-linejoin="round" width="24"
+                    height="24" stroke-width="2"
+                    class="hover:fill-blue-500 transition duration-300"
+                >
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3">
+                    </path>
+                </svg>
+            </a>
+            <a href="#" class="cursor-pointer md:w-8 xl:w-9">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" width="24"
+                    height="24" stroke-width="2"
+                    class="hover:stroke-blue-300 transition duration-300"
+                >
+                    <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+                    <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772">
+                    </path>
+                </svg>
+            </a>
+            <a href="#" class="cursor-pointer md:w-8 xl:w-9">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" width="24"
+                    height="24" stroke-width="2"
+                    class="hover:stroke-instagram transition duration-300"
+                >
+                    <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z">
+                    </path>
+                    <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0">
+                    </path>
+                    <path d="M16.5 7.5l0 .01">
+                    </path>
+                </svg>
+            </a>
+         </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
